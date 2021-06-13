@@ -1,0 +1,47 @@
+.div1{
+    border: 1px solid blue;
+    width: 80%;
+    margin: auto;
+}
+#par-1{
+    border-style: dotted;
+    border-width: 2px;
+    border-color: tomato;
+}
+#par-2{
+    border-style: groove;
+    border-width: 4px 10px;
+    border-color: tomato;
+}
+#par-3{
+    border-style: double;
+    border-width: 4px 10px;
+    border-color:#5f5f05;
+}
+
+#par-4{
+    border-style: outset;
+    border-width: 5px;
+    border-color:#0eb62a;
+}
+
+#par-6{
+    background-color: khaki;
+    font-style: italic;
+    border: 3px solid blue;
+    width: 250px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+}
+#par-7{
+    
+    font-style: bold;
+    border: 3px solid rgb(218, 198, 21);
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 25px;
+}
+
+
+    
