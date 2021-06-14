@@ -1,0 +1,41 @@
+/* *{
+    margin: 0px;
+} */
+div{
+    background-color: rgba(255, 10, 50, 0.4);
+    padding: 15px;
+}
+#baslik1{
+    background-color: aqua;
+    /* margin-bottom: 0px; */
+}
+#par1{
+    /* margin-top: 0px; */
+    background-color: darkgoldenrod;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border: 20px solid red;
+    /* padding: 10px; */
+    padding: 50px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    overflow: scroll;
+}
+#baslik3{
+    background-color: lawngreen ;
+    margin-top: 80px;
+}
+/*
+margin dış dolgu
+padding iç dolgu
+ margin dışardan içeriye baskı yapıyor 
+ama boyutunu değiştiremiyor iteliyor. 
+padding ise içeriden dışarıya baskı uyguluyor. 
+hücre gibi genişliyor */
+
+/* box-sizing = border-box belirlenen kutu ölçüsünde
+ ayarlar
+box-sizing = container  = içindeki yazı ne kadar alan 
+kaplarsa o kadar genişler */
+

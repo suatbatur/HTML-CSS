@@ -1,0 +1,54 @@
+*{
+    font-size: 24px;
+}
+
+h2[title="baslik1"]{
+    color: red;
+}
+
+p[title="paragraf1"]{
+    color: green;
+}
+
+a[target="_blank"]{
+    color: greenyellow;
+    text-decoration: none;
+}
+p::first-line{
+    font-size: 30px;
+    color: darkmagenta;
+    font-style:italic
+}
+p::first-letter{
+    font-size: 50px;
+}
+ul li{
+    padding: 5px;
+    background-color: orangered;
+    color: darkslateblue;
+    font-size: 30px;
+    margin: 2px;
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+    list-style-type: "😊";
+    color: white;
+}
+
+ul li:first-child{
+    background-color: darkblue;
+}
+ul li:last-child{
+    background-color: green;
+}
+
+ul li::before{
+    content: "\2764";
+    color: darkred;
+}
+
+
+
+
+
+

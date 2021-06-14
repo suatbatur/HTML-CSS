@@ -1,0 +1,17 @@
+/*div  p{
+    color :red;
+}*/
+
+/* .container div p{
+    color: blue;
+} */
+*{
+    font-size: 24px;
+}
+/* p + div {
+    color: blueviolet;
+} */
+
+div + p{
+    color: red;
+} 
