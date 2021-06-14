@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;    
+}
+body{
+    
+    background-color: #F0F2F5;
+    
+}
+.ana_div{
+    border: 2px solid red;
+    margin: auto;
+    padding: 175px;
+
+}
+.metin{
+    border: 2px solid green;
+    max-width: 500px;
+}
+#baslık{
+    width: 450px;
+
+    
+    
+
+}
+#paragraf{
+    font-size: 1.75rem;
+    
+    
+
+}
+@font-face {
+    font-family: "for_fb_header";
+    src: url(../fonts/klavika-bold.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+
