@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#title{
+    font-size: 75px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+#form_div input,
+#form_div label{
+    font-size: 16px;
+}
+
+
+.par{
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+.par input {
+    display: flex;
+    margin: 0px 0px 0px 16px;
+}
+.checkboxes{
+    
+}
+.labels{
+    display: flex;
+    font-size: 16px;
+    
+}
+#recommend_radio input{
+    margin-bottom: 16px;
+}
+#radio_buttons{
+    font-size: 16px;
+
+}
+#submit_button{
+    border: none;
+}
+
