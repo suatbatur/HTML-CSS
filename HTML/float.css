@@ -1,0 +1,16 @@
+div{
+    border: 3px solid black;
+}
+img{
+     float: right;
+    /* float: left; */
+    /* float: none; */
+    
+
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+
+}
