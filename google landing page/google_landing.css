@@ -1,0 +1,220 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    width: 100%;
+    white-space: nowrap;
+}
+body {
+    display: block;
+    margin: 8px;
+}
+header {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+header {
+    display: block;
+}
+.header-left {
+    opacity: 0.8;
+    float;
+    left
+}
+nav {
+    display: block;
+}
+#appicon{
+    vertical-align: middle;
+    opacity: 0.5;
+}
+#appicon:hover{
+    opacity: 1;
+}
+.header-links {
+    color: black;
+}
+#sign_in_button {
+    color: white;
+    background-color: #4285f4;
+    border: none;
+    height: 30px;
+    width: 70px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+    font-size: 13px;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.header-right {
+    float: right;
+    margin-right: 25px;
+}
+nav{
+    display: block;
+}
+.clear{
+    clear: both;
+}
+div{
+    display: block;
+}
+#google{
+    height: 95px;
+    width: 272px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+.searchbar{
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 60px;
+}
+#search{
+    font-size: 16px;
+    height: 38px;
+    width: 460px;
+    border-radius: 25px;
+    padding: 3px;
+    border: 1px solid lightgray;
+    padding-left: 50px;
+}
+input{
+    width: 200px;
+}
+input[type="text" i]{
+    padding: 1px 2px;
+
+}
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+#mag{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 10px;
+    right: 495px;
+}
+#microphone{
+    position: relative;
+    top: 5px;
+    right: 74px;
+    height: 20px;
+}
+.btn-container{
+    text-align: center;
+    padding-top: 30px;
+}
+#btn1 {
+    height: 36px;
+    width: 120px;
+    border: hidden;
+    border-radius: 4px;
+    color: #5f6368;
+    margin-right: 8px;
+}
+
+button {
+    appearance: auto;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+#btn2{
+    height: 36px;
+    width: 140px;
+    border: hidden;
+    border-radius: 4px;
+    color: #5f6368;
+}
+#language{
+    text-align: center;
+    margin-top: 20px;
+    font-size: small;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+footer {
+    width: 100%;
+    padding-left: 5px;
+    background-color: #f2f2f2;
+    line-height: 40px;
+    font-size: 14px;
+    border-top: 1px solid #e4e4e4;
+    position: fixed;
+    bottom: 0;
+}
+footer {
+    display: block;
+}
+.country {
+    border-bottom: 1px solid #e4e4e4;
+    margin-left: 13px;
+    color: #5f6368;
+}
+.footer-left{
+    float: left;
+}
+.footer-links{
+    color: #5f6368;
+}
+.footer-right{
+    float: right;
+    margin-right: 25px;
+}
