@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    margin: 20px;
+    padding: 30px;
+    border: 2px solid darkblue;
+    width: 90%;
+    height: 400px;
+    /* float: left; */
+    
+
+}
+#kule_resim{
+    
+    display: inline-block;
+    border: 2px solid red;
+    width: 35%;
+    height: 280px;
+    /* float: left; */
+    
+    
+    background-image: url(./kız_kulesi.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+    
+}
+#yazı{
+    display: inline-block;
+    
+    
+    width: 60%;
+    /* height: 280px; */
+    margin-top: -50px;
+    margin-bottom: 125px;
+    margin-left: 30px;
+    padding: 15px;
+    
+    border: 2px solid black;
+    
+
+}
+#yazı p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: justify;
+    text-indent: 15px;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: red;
+    
+
+}
