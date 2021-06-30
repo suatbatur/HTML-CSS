@@ -1,0 +1,105 @@
+/* flex container prop. (containe'e müdahale ediyoruz)
+flex-direction
+flex-wrap
+flex-flow
+justify-content
+align-items
+align-content */
+/* flex item prop. (cont. içindeki itemlere müdahale ediyoruz)
+order
+flex-grow
+flex-shrink
+flex-basis
+flex
+align-self */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Flex-Container properties */
+.flex-container{
+    border: 6px solid green;
+    display: flex;
+    height: 400px;   
+    /* display: inline-flex; */
+    /* inline flex sadece itemlar kadar yer kaplar. */
+    /* flex direction */
+    /* flex-direction: row; */
+    /* flex-direction: row; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+
+    /* flex-wrap  */
+    /* flex-wrap:nowrap; default değer */
+    /* flex-wrap: wrap; */
+
+    /* flex-flow: wrap ve direction u tek satırda ifade edebiliyoruz. */
+    /* flex-flow: column nowrap; */
+
+    /* justify content */
+    /* justify-content: space-beetween; her elemanin arasina esit degerde bosluk birakiyor
+    justify-content: space-around; en sag ve en sol bosluga x bosluk birakiyor elemanlarin arasina ise 2x olacak sekilde bosluk birakiyor
+    justify-content: space-evenly; sagdan soldan fark etmez elemanlarin arasindaki butun bosluklari esitliyor */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: center; */
+
+    /* align-items: y eksenine göre (cross axis) ayarlamalar yapıcak.
+    yatay duzlemde siralama yapmak icin justify-content kullanilir
+    dikey duzlemde siralama yapmak icin align-items kullanilir */
+
+    /* align-items: stretch; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* align-items: baseline; */
+
+    /* align-content: */
+    /* align-content: stretch; */
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: center; */
+    /* align-content: space-around; */
+    /* align-content: space-between; */
+
+}
+
+.items{
+    background-color: indianred;
+    color: white;
+    font: 30px;
+    padding: 10px;
+    margin: 3px;
+    text-align: center;
+    width: 100px;
+
+}
+ .item1{
+     /* font-size: 70px; */
+     /* order ın default değeri 0 */
+     /* order: 1; */
+     /* flex-grow:1; */
+     align-self: flex-start;
+ }
+ .item2{
+     /* font-size: 100px; */
+     /* order: 2; */
+     /* flex-basis: 200px; */
+     align-self: flex-end;
+ }
+ .item3{
+     /* order: 4; */
+     /* flex-grow: 1; */
+     align-self: center;
+     
+ }
+ .item4{
+     /* order: 4; */
+     /* flex-grow: 2; */
+     /* flex-shrink: 2; */
+     align-self: baseline;
+ }
