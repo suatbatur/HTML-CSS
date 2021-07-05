@@ -124,3 +124,13 @@ html{
         font-size: 0.9rem;
     }
 }
+
+@media (max-width:568px){
+    .background-container--image1,
+    .background-container--image2,
+    .background-container--image3,
+    .background-container--image4{
+        background-attachment: scroll;
+    }
+
+}
